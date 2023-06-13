@@ -1,5 +1,5 @@
 # Web-Crawler-Scraping
-Creating a web crawler and scraper using Scrapy to extract various detail like title,price and rating from books.toscrape.com into an external file format like csv/json.
+Creating a web crawler and scraper using Scrapy to extract various detail like title, price and rating from books.toscrape.com into an external file format like csv/json.
 
 # Webpage
 
@@ -19,7 +19,7 @@ Creating a web crawler and scraper using Scrapy to extract various detail like t
 # Working
 1. Input the starting url of the homepage to the spider.
 2. Now to scrape the website, a parse function has been defined which is used to extract the data into the variable response.
-3. To extract the necessary details, the required css selectors have been extracted from the webpage and we have scraped the necessary details into 3 variables, namely title,price and rating.
+3. To extract the necessary details, the required css selectors have been extracted from the webpage and we have scraped the necessary details into 3 variables, namely title, price and rating.
 4. To output the details, yield has been used which returns us a dictionary of key-value pairs.
 5. Now to crawl onto other pages, the next page functionality on the webpage has been used. Therefore, we extract the <a> href attribute and pass it onto the next_page variable.
 6. We use response.follow which is a functionality of scrapy and we pass it again to the parse function to scrape the details.
