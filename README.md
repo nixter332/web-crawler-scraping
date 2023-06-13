@@ -26,6 +26,7 @@ Creating a web crawler and scraper using Scrapy to extract various detail like t
 7. This will keep running till we run out of pages.
   
 # Sample Output
+  
   Json File-
   
   ![sample_json](https://github.com/nixter332/web-crawler-scraping/assets/97787214/f1c2882e-589e-4f3b-a107-5520ea4b473d)
